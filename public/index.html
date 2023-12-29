@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Education Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="scroll-behavior: smooth;">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Your Logo"></a>
+            </div>
+            <div class="toggle" onclick="navToggle();"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#contact" onclick="navToggle();">Contact Us</a></li>
+                <li><a href="#chat">Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <p class="top">Demanding Technology Skills</p>
+            <div class="skill-container">
+                <div class="skill-box">
+                    <a href="Tech1.html">
+                        <img src="images/cco.png" alt="Tech 1">
+                        <h2>Cloud Computing</h2>
+                    </a>
+                </div>
+                <div class="skill-box">
+                    <a href="Tech2.html">
+                        <img src="images/ai.jpeg" alt="Tech 2">
+                        <h2>Artificial Intelligence</h2>
+                    </a>
+                </div><div class="skill-box">
+                    <a href="Tech3.html">
+                        <img src="images/ml.jpeg" alt="Tech 3">
+                        <h2>Machine Learning</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="skill-container">
+                <div class="skill-box">
+                    <a href="Tech4.html">
+                        <img src="images/ds.jpg" alt="Tech 4">
+                        <h2>Data Science</h2>
+                    </a>
+                </div>
+                <div class="skill-box">
+                    <a href="Tech5.html">
+                        <img src="images/bc.jpg" alt="Tech 5">
+                        <h2>Block Chain</h2>
+                    </a>
+                </div><div class="skill-box">
+                    <a href="Tech6.html">
+                        <img src="images/dm.png" alt="Tech 6">
+                        <h2>Digital Marketing</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="skill-container">
+                <div class="skill-box">
+                    <a href="Tech7.html">
+                        <img src="images/iot.jpeg" alt="Tech 7">
+                        <h2>Internet Of Things</h2>
+                    </a>
+                </div>
+                <div class="skill-box">
+                    <a href="Tech8.html">
+                        <img src="images/ad.png" alt="Tech 8">
+                        <h2>Mobile App Development</h2>
+                    </a>
+                </div><div class="skill-box">
+                    <a href="Tech9.html">
+                        <img src="images/wd.jpg" alt="Tech 9">
+                        <h2>Web Development</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="skill-container">
+                <div class="skill-box">
+                    <a href="Tech10.html">
+                        <img src="images/pm.jpg" alt="Tech 10">
+                        <h2>Project Management</h2>
+                    </a>
+                </div>
+                <div class="skill-box">
+                    <a href="Tech11.html">
+                        <img src="images/prodm.jpeg" alt="Tech 11">
+                        <h2>Product Management</h2>
+                    </a>
+                </div><div class="skill-box">
+                    <a href="Tech12.html">
+                        <img src="images/robo.png" aTech1.html">
+                        <h2>Robotics</h2>
+                    </a>
+                </div>
+            </div>
+            
+
+            
+            <!-- Repeat this structure for other skills -->
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        
+        <p class="us"><p>Eduhub Headquarters:</p>
+            <p>123 Market Street,</p>
+            <p>AGS Colony, Velachery,</p>
+            <p>Tamilnadu, Chennai - 600042</p></p>
+
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function(){
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle("sticky" , window.scrolly > 50);
+             });
+  
+      const togglebar = document.querySelector('.toggle');
+      const menu =document.querySelector('ol');
+
+        function navToggle(){
+              togglebar.classList.toggle('active');
+              menu.classList.toggle('active');
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, li, p {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    padding-bottom: 80px;
+
+}
+
+p{
+    letter-spacing: 3px;
+    line-height: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 40px;
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 50px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Updated styles for main content */
+main {
+    padding: 80px;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Start from the left */
+    margin: -10px; /* Negative margin to counteract padding on skill-box */
+}
+
+.skill-box {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width accordingly */
+    margin: 10px; /* Adjust to create spacing between boxes */
+    padding: 20px; /* Added padding */
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.skill-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 20px; /* Adjust header padding for smaller screens */
+    }
+
+    .top {
+        font-size: large; /* Decrease font size for the 'top' text */
+        padding-bottom: 40px; /* Reduce padding for 'top' text */
+    }
+
+    .nav-links li {
+        margin-right: 20px; /* Decrease margin between nav links */
+    }
+
+    main {
+        padding: 40px; /* Adjust main content padding */
+    }
+
+    .skill-box {
+        flex: 0 0 calc(50% - 20px); /* Change skill box to display two boxes per row */
+        margin: 10px; /* Adjust margin for smaller spacing between skill boxes */
+    }
+
+    footer {
+        padding: 40px; /* Adjust footer padding */
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px; /* Adjust header padding for smaller screens */
+    }
+
+    .logo img {
+        width: 80px; /* Decrease logo size */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Change nav links to display vertically */
+        align-items: center; /* Center align nav links */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Adjust margin for nav links */
+    }
+
+    main {
+        padding: 20px; /* Adjust main content padding */
+    }
+
+    .skill-box {
+        flex: 0 0 calc(100% - 20px); /* Display one skill box per row */
+        margin: 10px 0; /* Adjust margin for mobile view */
+    }
+
+    footer {
+        padding: 20px; /* Adjust footer padding */
+    }
+}

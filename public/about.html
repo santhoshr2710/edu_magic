@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        /* Basic styling */
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 40px;
+        }
+
+        .abt {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .founders {
+            background-color: #fcfcfc;
+            padding: 30px 20px;
+          }
+          
+          .founders .content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+          }
+          
+          .founder {
+            text-align: center;
+          }
+          
+          .founder img {
+            width: 120px; 
+            height: auto;
+            border-radius: 60%; 
+          }
+          h6 {
+            font-size: 1.1rem;
+            color: #333;
+          }
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Your Logo"></a>
+            </div>
+            <div class="toggle" onclick="navToggle();"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#contact" onclick="navToggle();">Contact Us</a></li>
+                <li><a href="#chat">Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="abt">
+    <h1>About Us</h1>
+    <br>
+    <p>Welcome to our educational website! We are dedicated to providing valuable information about various Technology skills.</p>
+    <h2>Our Mission</h2>
+    <p>Our mission is to empower individuals with knowledge and skills in the field of Information Technology through accessible and engaging content.</p>
+    <h2>Our Team</h2>
+    <p>We are a passionate team of professionals committed to sharing our expertise and helping others learn and grow.</p>
+    <h2>Contact Us</h2>
+    <p>If you have any questions or feedback, feel free to reach out to us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+    
+    <section class="founders container">
+        <div class="content">
+          <div class="founder">
+            <img src="images/founder1.jpg" alt="Founder 1">
+            <h6>Thirumalaivasan</h6>
+          </div>
+          <div class="founder">
+            <img src="images/founder2.jpg" alt="Founder 2">
+            <h6>Rohith</h6>
+          </div>
+          <div class="founder">
+            <img src="images/founder3.jpg" alt="Founder 3">
+            <h6>Lingeswaran</h6>
+          </div>
+          <div class="founder">
+            <img src="images/founder4.jpg" alt="Founder 4">
+            <h6>Santhosh</h6>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        
+        <p class="us"><p>Eduhub Headquarters:</p>
+            <p>123 Market Street,</p>
+            <p>AGS Colony, Velachery,</p>
+            <p>Tamilnadu, Chennai - 600042</p></p>
+
+    </footer>
+</body>
+</html>

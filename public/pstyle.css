@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 40px;
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 70px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+h1 {
+    margin: 0;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.description h3 {
+    margin-top: 20px;
+}
+
+.description ul {
+    padding-left: 20px;
+}
+
+.description ul li{
+    padding-bottom: 20px;
+}
+
+p{
+    line-height: 2.2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.topic{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+}
+
+.us{
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 20px; /* Adjust header padding for smaller screens */
+    }
+
+    .top {
+        font-size: large; /* Decrease font size for the 'top' text */
+        padding-bottom: 40px; /* Reduce padding for 'top' text */
+    }
+
+    .nav-links li {
+        margin-right: 20px; /* Decrease margin between nav links */
+    }
+
+    main {
+        padding: 40px; /* Adjust main content padding */
+    }
+
+    .skill-box {
+        flex: 0 0 calc(50% - 20px); /* Change skill box to display two boxes per row */
+        margin: 10px; /* Adjust margin for smaller spacing between skill boxes */
+    }
+
+    footer {
+        padding: 40px; /* Adjust footer padding */
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px; /* Adjust header padding for smaller screens */
+    }
+
+    .logo img {
+        width: 80px; /* Decrease logo size */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Change nav links to display vertically */
+        align-items: center; /* Center align nav links */
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Adjust margin for nav links */
+    }
+
+    main {
+        padding: 20px; /* Adjust main content padding */
+    }
+
+    .skill-box {
+        flex: 0 0 calc(100% - 20px); /* Display one skill box per row */
+        margin: 10px 0; /* Adjust margin for mobile view */
+    }
+
+    footer {
+        padding: 20px; /* Adjust footer padding */
+    }
+}
