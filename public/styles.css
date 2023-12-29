@@ -84,6 +84,11 @@ main {
     object-fit: cover;
 }
 
+.skill-box :hover{
+    transform: scale(1.04);
+    z-index: index 1;
+}
+
 footer {
     background-color: #333;
     color: #fff;
