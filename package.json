@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/santhoshr2710/edu_magic/issues"
   },
-  "homepage": "https://github.com/santhoshr2710/edu_magic#readme"
+  "homepage": "https://github.com/santhoshr2710/edu_magic#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
