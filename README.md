@@ -96,6 +96,6 @@ For any inquiries or support, feel free to reach out to us at eduhub@email.com.
 #Demo Images:
 
 ![1](https://github.com/santhoshr2710/edu_magic/assets/113828454/16618a61-5e73-4252-b6ae-e42ae08986ef)
-
 ![2](https://github.com/santhoshr2710/edu_magic/assets/113828454/94e0e487-9c2d-4022-a937-d17f2c35e1ce)
+![3](https://github.com/santhoshr2710/edu_magic/assets/113828454/efe09ca0-998b-4f46-8dc8-81a749946bec)
 
