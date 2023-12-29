@@ -93,9 +93,13 @@ S.start the server: npm start
 # Contact Us
 
 For any inquiries or support, feel free to reach out to us at eduhub@email.com.
-#Demo Images:
+# Demo Images:
 
 ![1](https://github.com/santhoshr2710/edu_magic/assets/113828454/16618a61-5e73-4252-b6ae-e42ae08986ef)
 ![2](https://github.com/santhoshr2710/edu_magic/assets/113828454/94e0e487-9c2d-4022-a937-d17f2c35e1ce)
 ![3](https://github.com/santhoshr2710/edu_magic/assets/113828454/efe09ca0-998b-4f46-8dc8-81a749946bec)
+![4](https://github.com/santhoshr2710/edu_magic/assets/113828454/e073ef45-0820-47ca-99b2-e91653cef86d)
+![5](https://github.com/santhoshr2710/edu_magic/assets/113828454/eba837e3-1ddf-44f9-b7d8-8f4171e23dbc)
+![6](https://github.com/santhoshr2710/edu_magic/assets/113828454/b5604be1-84cf-46f3-a347-dd9fb501b1c1)
+![7](https://github.com/santhoshr2710/edu_magic/assets/113828454/e117f028-7092-43a9-8c7c-5c20beee6e30)
 
