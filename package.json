@@ -1,0 +1,19 @@
+{
+  "name": "eduhub",
+  "version": "1.0.0",
+  "description": "Education Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhoshr2710/edu_magic.git"
+  },
+  "author": "Thirumalaivasan R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhoshr2710/edu_magic/issues"
+  },
+  "homepage": "https://github.com/santhoshr2710/edu_magic#readme"
+}
