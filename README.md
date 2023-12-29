@@ -34,7 +34,7 @@ product Development, Web development, Digital Marketing , Mobile app development
 
 To explore our courses and start learning:
 
-1. Visit [EDUHUB EDUCATION WEBSITE]
+1. Visit EDUHUB EDUCATION WEBSITE 
 2. Browse through the courses  your desired topics.
 3. Click the  course and read !
 4. If any doubt you can ask in Chat section
@@ -92,7 +92,7 @@ S.start the server: npm start
       
 # Contact Us
 
-For any inquiries or support, feel free to reach out to us at [eduhub@email.com].
+For any inquiries or support, feel free to reach out to us at eduhub@email.com.
 
 
 
