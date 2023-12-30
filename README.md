@@ -99,6 +99,9 @@ S. start the server: npm start
 #  URL: 
    https://eduhub.azurewebsites.net/
 
+#  video: 
+https://www.youtube.com/watch?v=JJ2N-nui4fQ
+
 #  Images:
 
 ![1](https://github.com/santhoshr2710/edu_magic/assets/113828454/16618a61-5e73-4252-b6ae-e42ae08986ef)
@@ -113,6 +116,5 @@ S. start the server: npm start
 ![10](https://github.com/santhoshr2710/edu_magic/assets/113828454/c0056993-1c93-4a5b-8b31-d20e24084d25)
 ![11](https://github.com/santhoshr2710/edu_magic/assets/113828454/b024d75d-c2c2-4805-bc71-0f8ba6341fbd)
 
-#  video: 
-   https://www.youtube.com/watch?v=JJ2N-nui4fQ
+
       
