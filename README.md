@@ -48,11 +48,11 @@ To explore our courses and start learning:
 
 # Installation 
 
-1.Clone this repository: git clone https://github.com/santhoshr2710/edu_magic.git
-2.Navigate to the project directory: cd education-website
-3.Install dependencies: npm install
-4.Set up environment variables (API keys, database credentials, etc.): Create a .env file based on .env.example.
-S.start the server: npm start
+    1.Clone this repository: git clone https://github.com/santhoshr2710/edu_magic.git
+    2.Navigate to the project directory: cd education-website
+    3.Install dependencies: npm install
+    4.Set up environment variables (API keys, database credentials, etc.): Create a .env file based on .env.example.
+    S.start the server: npm start
 
 # Azure Services
 
@@ -64,6 +64,10 @@ S.start the server: npm start
   
     Azure App Service is a managed platform in Microsoft Azure for hosting web apps, APIs, and mobile backends. It simplifies deployment, scaling, and management, allowing developers to focus on coding without     
     worrying about infrastructure.
+# Virtual Network (VNet): 
+    Azure Virtual Network allows you to create private, isolated networks within the Azure cloud. It helps in securely connecting Azure resources and provides network customization
+ # Azure Monitor:
+    Azure Monitor provides comprehensive monitoring and analytics for your applications and infrastructure. It helps in collecting, analyzing, and acting on telemetry data from your applications and services
 
   # AI Service
   
@@ -93,8 +97,9 @@ S.start the server: npm start
 # Contact Us
 
 For any inquiries or support, feel free to reach out to us at eduhub@email.com.
-
-
+# Demo:
+# Demo URL:
+# Demo video:
 # Demo Images:
 
 ![1](https://github.com/santhoshr2710/edu_magic/assets/113828454/16618a61-5e73-4252-b6ae-e42ae08986ef)
