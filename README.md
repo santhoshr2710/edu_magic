@@ -56,22 +56,28 @@ S. start the server: npm start
 
 # Azure Services
 
-  # Resource Group:
+   Resource Group:-
   
-    An Azure Resource Group is a container in Microsoft Azure used to group and manage related resources such as virtual machines, databases, and web apps. It simplifies management, shares permissions and policies,     and helps in cost tracking within an Azure subscription.
+      An Azure Resource Group is a container in Microsoft Azure used to group and manage related resources such as virtual machines, databases, and web apps. It simplifies management, shares permissions and policies,     and helps        in cost tracking within an Azure subscription.
     
-  # App Service:
+  App Service:-
   
-    Azure App Service is a managed platform in Microsoft Azure for hosting web apps, APIs, and mobile backends. It simplifies deployment, scaling, and management, allowing developers to focus on coding without     
-    worrying about infrastructure.
-# Virtual Network (VNet): 
+     Azure App Service is a managed platform in Microsoft Azure for hosting web apps, APIs, and mobile backends. It simplifies deployment, scaling, and management, allowing developers to focus on coding without     
+     worrying about infrastructure.
+    
+ Virtual Network (VNet):-
+  
     Azure Virtual Network allows you to create private, isolated networks within the Azure cloud. It helps in securely connecting Azure resources and provides network customization.
- # Virtual Network Integration: 
+    
+ Virtual Network Integration:-
+  
     Integration with Azure Virtual Network ensures that your application securely communicates with resources within the virtual network, providing enhanced security and isolation.
- # Azure Monitor:
+    
+  Azure Monitor:-
+  
     Azure Monitor provides comprehensive monitoring and analytics for your applications and infrastructure. It helps in collecting, analyzing, and acting on telemetry data from your applications and services
 
-  # AI Service:
+  AI Service:-
   
       AI Chatbot 
       
