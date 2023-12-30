@@ -106,6 +106,3 @@ S. start the server: npm start
 ![10](https://github.com/santhoshr2710/edu_magic/assets/113828454/c0056993-1c93-4a5b-8b31-d20e24084d25)
 ![11](https://github.com/santhoshr2710/edu_magic/assets/113828454/b024d75d-c2c2-4805-bc71-0f8ba6341fbd)
       
-# Contact Us
-
-For any inquiries or support, feel free to reach out to us at eduhub@email.com.
