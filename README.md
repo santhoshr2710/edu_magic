@@ -89,10 +89,11 @@ S. start the server: npm start
       "Need assistance in choosing a course?"
       Based on user responses, it suggests suitable courses, offers information, and assists in resolving queries or directing users to support resources.
             
-# Demo
-# Demo URL:
-# Demo video:
-# Demo Images:
+
+#  URL: 
+   https://eduhub.azurewebsites.net/
+
+#  Images:
 
 ![1](https://github.com/santhoshr2710/edu_magic/assets/113828454/16618a61-5e73-4252-b6ae-e42ae08986ef)
 ![2](https://github.com/santhoshr2710/edu_magic/assets/113828454/94e0e487-9c2d-4022-a937-d17f2c35e1ce)
@@ -105,4 +106,7 @@ S. start the server: npm start
 ![9](https://github.com/santhoshr2710/edu_magic/assets/113828454/4bf2ccc9-88ee-45ef-9f93-7bb80b1d0680)
 ![10](https://github.com/santhoshr2710/edu_magic/assets/113828454/c0056993-1c93-4a5b-8b31-d20e24084d25)
 ![11](https://github.com/santhoshr2710/edu_magic/assets/113828454/b024d75d-c2c2-4805-bc71-0f8ba6341fbd)
+
+#  video: 
+   https://www.youtube.com/watch?v=JJ2N-nui4fQ
       
