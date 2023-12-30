@@ -89,7 +89,7 @@ S. start the server: npm start
       "Need assistance in choosing a course?"
       Based on user responses, it suggests suitable courses, offers information, and assists in resolving queries or directing users to support resources.
             
-# Demo:
+# Demo
 # Demo URL:
 # Demo video:
 # Demo Images:
